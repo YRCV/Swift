@@ -1,4 +1,3 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
-
-print("Hello, world!")
+for n in 1...20 {
+    print(square(n))
+}
