@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude":{
+			"**/.exe": true,
+			"**/.exp": true,
+			"**/.lib": true
+		}
+	}
+}
