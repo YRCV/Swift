@@ -17,6 +17,24 @@
             "name": "Release SquaresApp (Part 1\\SquaresApp)",
             "program": "${workspaceFolder:Swift}/Part 1\\SquaresApp/.build/release/SquaresApp",
             "preLaunchTask": "swift: Build Release SquaresApp (Part 1\\SquaresApp)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift}/Part1\\SquaresApp",
+            "name": "Debug SquaresApp (Part1\\SquaresApp)",
+            "program": "${workspaceFolder:Swift}/Part1\\SquaresApp/.build/debug/SquaresApp",
+            "preLaunchTask": "swift: Build Debug SquaresApp (Part1\\SquaresApp)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift}/Part1\\SquaresApp",
+            "name": "Release SquaresApp (Part1\\SquaresApp)",
+            "program": "${workspaceFolder:Swift}/Part1\\SquaresApp/.build/release/SquaresApp",
+            "preLaunchTask": "swift: Build Release SquaresApp (Part1\\SquaresApp)"
         }
     ]
 }
