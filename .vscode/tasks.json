@@ -2,13 +2,18 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "type": "swift",
-      "label": "Swift Build All - Release",
-      "detail": "swift build --build-tests",
-      "args": ["build", "--build-tests", "-c", "release"],
-      "env": {},
-      "cwd": "${workspaceFolder}",
-      "group": "build"
+      "label": "Compile and Run Swift",
+      "type": "shell",
+      "detail": ".swift -o .exe",
+      "command": "swiftc \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}.exe\"; if ($LASTEXITCODE -eq 0) {\"${fileDirname}/${fileBasenameNoExtension}.exe\" }",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true,
+        "echo": false
+      },
+      "problemMatcher":"$swiftc"
     }
   ]
 }
